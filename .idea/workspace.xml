@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sso-shop:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27d2b889-3ae4-45a8-b29e-433dd7f8f4f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java\oauth2_lib" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.6.3\conf\settings88.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Uh1mNczplH3aVwP7qsDpRGhKdg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.sso-shop">
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="sso-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sso-client" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sso_client_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="sso-client:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/sso_client_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sso-oauth2-master_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61236" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sso-client:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="sso-server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sso_server_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="sso-server:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/sso_server_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sso-oauth2-master" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51356" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sso-server:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="sso-shop" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="sso-shop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/sso_shop_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sso-oauth2-master_3" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62529" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sso-shop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.sso-server" />
+      <item itemvalue="Tomcat Server.sso-shop" />
+      <item itemvalue="Tomcat Server.sso-client" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d2b889-3ae4-45a8-b29e-433dd7f8f4f3" name="Default Changelist" comment="" />
+      <created>1575794170681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575794170681</updated>
+      <workItem from="1575794172186" duration="14227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="262" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575808205448">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="262" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575808205448" />
+    <state x="850" y="293" width="541" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575795367005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="850" y="293" width="541" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575795367005" />
+    <state x="760" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575797516848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575797516848" />
+    <state x="901" y="264" key="FileChooserDialogImpl" timestamp="1575800743588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="901" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575800743588" />
+    <state width="1606" height="331" key="GridCell.Tab.0.bottom" timestamp="1575808613307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613307" />
+    <state width="1606" height="331" key="GridCell.Tab.0.center" timestamp="1575808613306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613306" />
+    <state width="1606" height="331" key="GridCell.Tab.0.left" timestamp="1575808613306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613306" />
+    <state width="1606" height="331" key="GridCell.Tab.0.right" timestamp="1575808613306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613306" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1575808613245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613245" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1575808613245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613245" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1575808613245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613245" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1575808613245">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613245" />
+    <state width="1606" height="331" key="GridCell.Tab.2.bottom" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state width="1606" height="331" key="GridCell.Tab.2.center" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state width="1606" height="331" key="GridCell.Tab.2.left" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state width="1606" height="331" key="GridCell.Tab.2.right" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state width="1606" height="331" key="GridCell.Tab.3.bottom" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state width="1606" height="331" key="GridCell.Tab.3.center" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state width="1606" height="331" key="GridCell.Tab.3.left" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state width="1606" height="331" key="GridCell.Tab.3.right" timestamp="1575808613211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1606" height="331" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575808613211" />
+    <state x="624" y="151" key="SettingsEditor" timestamp="1575803692184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575803692184" />
+    <state x="650" y="251" width="759" height="538" key="find.popup" timestamp="1575806800685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="650" y="251" width="759" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575806800685" />
+    <state x="722" y="238" key="run.anything.popup" timestamp="1575808590496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="238" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575808590496" />
+    <state x="807" y="208" width="672" height="678" key="search.everywhere.popup" timestamp="1575804441379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575804441379" />
+  </component>
+</project>
